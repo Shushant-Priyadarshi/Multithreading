@@ -4,5 +4,39 @@
     ▶️Process based Multitasking: Running multiple programs to run concurrently.
     ▶️Thread based Multitasking: Allows part of the same program to run concurrently.
 
-
   ▶️Thread VS Process:
+    👉Two threads share the same address space.
+    👉Context switching is less expensive for the CPU in threads.
+    👉Cost of communication is way lesser in threads.
+
+  ▶️Why Multithreading?
+    👉In single-threaded environment only one task can be performed, it wastes
+        CPU cycle when waiting for user input. Multitasking allows idle CPU time to put on some good use.
+
+  ▶️Threads: a thread is a independent sequential path of execution within a program.
+    👉When many threads are run concurrently within a program, they share common space
+        hence share both data and code this is why they are comparatively lighter.
+
+    ▶️The MAIN Thread:
+        👉When an application is run, it creates a MAIN thread (user created) to run the
+            main method of the class.
+        👉If no user threads are spawned then the main thread is terminated.
+        👉All other threads are called child threads as they are spawned out of the main
+            thread.
+        👉The runtime environment distinguishes between USER threads and DAEMON threads.
+        👉As long as a user thread is alive, JVM does not terminate.
+        👉A DAEMON thread  is at mercy of the runtime system. Is is stopped if no
+            user thread is running, thus terminating the program.
+
+    ▶️Thread Operations:
+
+        ▶️Thread Creation
+            👉A thread is Java is represented by an object of the thread class.
+            1️⃣ Implementing java.lang.Runnable interface
+            2️⃣ Extending the java.lang.Thread class
+
+
+
+
+
+
