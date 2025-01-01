@@ -35,6 +35,11 @@
             1️⃣ Implementing java.lang.Runnable interface
             2️⃣ Extending the java.lang.Thread class
 
+         👉When a main method is executed with a thread, it all upto the JVM and platform
+            on which order the threads will be executed.
+         👉Even if the main thread is finished, it checks for any more user thread and executes
+            them.
+
 
 
 
