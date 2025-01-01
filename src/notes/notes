@@ -1,1 +1,8 @@
-🎯Learning Multithreading
+🎯Learning Multithreading: It allows several activities to occur concurrently on the
+    computer.
+
+    ▶️Process based Multitasking: Running multiple programs to run concurrently.
+    ▶️Thread based Multitasking: Allows part of the same program to run concurrently.
+
+
+  ▶️Thread VS Process:
