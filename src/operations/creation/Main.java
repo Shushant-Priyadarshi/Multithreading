@@ -11,5 +11,6 @@ public class Main {
 
         thread2.run();
         System.out.println("=> Main thread is exiting ");
+        System.out.println("=> thread is finished ");
     }
 }
